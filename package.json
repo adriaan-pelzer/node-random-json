@@ -1,0 +1,13 @@
+{
+  "name": "node-random-json",
+  "version": "0.0.0",
+  "description": "A random json generator",
+  "main": "index.js",
+  "repository": "git@github.com:adriaan-pelzer/node-random-json.git",
+  "author": "Adriaan Pelzer",
+  "license": "BSD",
+  "private": false,
+  "dependencies": {
+    "ramda": "^0.27.0"
+  }
+}
