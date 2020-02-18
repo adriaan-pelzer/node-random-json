@@ -13,7 +13,7 @@ or
 
 ### quick start
 
-```
+```js
   const generateRandomJson = require('node-random-json')({});
 
   console.log(generateRandomJson('Object'));
@@ -21,7 +21,7 @@ or
 
 ### config options
 
-```
+```js
   const generateRandomJson = require('node-random-json')({
     chars: [ LIST_OF_CHARS_TO_USE_IN_RANDOM_STRINGS ],
     // default: [a-zA-Z0-9.- ]
