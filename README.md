@@ -24,7 +24,7 @@ or
 ```js
   const generateRandomJson = require('node-random-json')({
     chars: [ LIST_OF_CHARS_TO_USE_IN_RANDOM_STRINGS ],
-    // default: [ 'a', 'b', ..., 'z', 'A', 'B', ...., 'Z', '0', '1', ..., '9', '.', '-', ' ' ]
+    // default: [ 'a', 'b', ..., 'z', 'A', 'B', ..., 'Z', '0', '1', ..., '9', '.', '-', ' ' ]
     types: [ LIST_OF_TYPES_TO_GENERATE_IN_JSON ],
     // default: ['Object', 'Array', 'Date', 'String', 'Number', 'Boolean', 'Null', 'Undefined', 'Function']
     maxDepth: MAXIMUM_OBJECT_DEPTH,
